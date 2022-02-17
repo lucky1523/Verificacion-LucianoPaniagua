@@ -6,6 +6,6 @@ public class MultiplicarServicio {
 
     //DESARROLLADOR B
     public int multi(int a,int b){
-        return 0;
+        return a*b;
     }
 }
