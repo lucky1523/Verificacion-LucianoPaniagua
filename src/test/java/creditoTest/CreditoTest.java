@@ -20,7 +20,7 @@ public class CreditoTest {
         Prestamo prestamo = new Prestamo(historialCreditoMock);
         String actualResult = prestamo.maximoPrestamo(12345);
         String expectedResult="maximo a prestar 200000";
-        Assertions.assertEquals(expectedResult,actualResult,"Error");
+        Assertions.assertEquals(actualResult,expectedResult,"Error");
         Mockito.verify(historialCreditoMock).getCategoriaCrediticia(12345);
     }
 
