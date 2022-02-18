@@ -4,6 +4,9 @@ import ejemploMock.MultiplicarServicio;
 
 public class CalculadoraMockStatic {
 
+    public CalculadoraMockStatic(){
+
+    }
     public CalculadoraMockStatic(MultiplicarServicio multiplicarServicio){
     }
 
