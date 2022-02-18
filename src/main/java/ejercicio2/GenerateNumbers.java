@@ -19,7 +19,7 @@ public class GenerateNumbers {
                     numeros = numeros + i + " ";
                 }
             }
-        } else if (!primo.esPrimo(input)){
+        } else {
             for(int i = 1; i < input; i++){
                 if (i%2!=0) {
                     numeros = numeros + i + " ";

@@ -16,7 +16,7 @@ public class NumbersTest {
         String actualResult = generateNumbers.getNumberValues(12);
         String expectedResult = "1 3 5 7 9 11 ";
         Assertions.assertEquals(actualResult,expectedResult,"Error");
-        //Mockito.verify(primoMock).esPrimo(12);
+        Mockito.verify(primoMock).esPrimo(12);
 
     }
 
